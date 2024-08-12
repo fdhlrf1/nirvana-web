@@ -1,0 +1,67 @@
+body{
+    background-image: url(../../img/background/backg9.jpg);
+    background-size: cover;
+}
+.kotak{
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+    margin:10px;
+    width:96%;
+    background:rgb(65, 63, 63);
+    opacity:0.8;
+    border-radius: 15px;
+    
+}
+fieldset {
+    border-radius: 10px;
+    border-color: #ffd900f5;
+}
+@font-face{
+    font-family: lato-regular;
+    src: url(../../font/font/lato/Lato-Regular.ttf);
+
+}
+h5 {
+    color: white;
+    font-family: lato-regular;
+    text-align: center;
+    font-size: 33px;
+}
+
+.timeline{
+    color: white;
+    font-family: lato-regular;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*MEMBUAT SCROLLBAR JADI ESTETIK*/
+
+ /* membuat container atau wadah dari scrollbar dengan lebar 20px  */
+ ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* membuat background dari scrollbar */
+  /* kasih warna transparan agar lebih estetik  */
+  ::-webkit-scrollbar-track {
+    background-color: transparent
+  }
+
+
+  /* membuat styling pada batang atau bar scrollbar  */
+  /* kita beri warna abu tua dengan lengkungan di sisi atas dan bawahnya  */
+  ::-webkit-scrollbar-thumb {
+    background-color:#292929;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  /* warna akan berubah menjadi abu mudah saat kursor diarahkan  */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffd900f5;
+  }
+

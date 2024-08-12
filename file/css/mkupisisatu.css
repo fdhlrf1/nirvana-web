@@ -1,0 +1,102 @@
+body{
+    background-image: url(../../img/background/backg16.jpg);
+    background-size: cover;
+    
+}
+
+.kotak1{
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+    margin:10px;
+    width:96%;
+    background:rgb(97, 96, 96);
+    opacity:0.9;
+    border-radius: 15px;
+    
+}
+
+
+fieldset{
+    border-radius: 10px;
+    border-color: #ffd900f5;
+}
+
+@font-face{
+    font-family: lato-regular;
+    src: url(../../font/font/lato/Lato-Regular.ttf);
+
+}
+
+.tentangband{
+    font-family: lato-regular;
+    font-variant: normal;
+    font-size: 18px;
+    text-align: center;
+}   
+
+.akhirsejarah{
+    font-family: lato-regular;
+    font-variant: normal;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.video{
+    border-radius: 30px;
+    text-align: center; 
+    background: #353533f5; 
+}
+
+.gambarartikel{
+    font-family: lato-regular;
+    font-variant: normal;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 30px;
+    background: #353533f5;
+}
+.bagbawah{
+    border-radius: 30px;
+    background: #353533f5;
+}
+
+.gambarnirvana{
+    text-align: center;
+}
+.gambarrip{
+    text-align: center;
+    color: #ffd900f5;
+}
+
+
+/*MEMBUAT SCROLLBAR JADI ESTETIK*/
+
+ /* membuat container atau wadah dari scrollbar dengan lebar 20px  */
+ ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* membuat background dari scrollbar */
+  /* kasih warna transparan agar lebih estetik  */
+  ::-webkit-scrollbar-track {
+    background-color: transparent
+  }
+
+
+  /* membuat styling pada batang atau bar scrollbar  */
+  /* kita beri warna abu tua dengan lengkungan di sisi atas dan bawahnya  */
+  ::-webkit-scrollbar-thumb {
+    background-color:#292929;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  /* warna akan berubah menjadi abu mudah saat kursor diarahkan  */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffd900f5;
+  }
+

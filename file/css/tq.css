@@ -1,0 +1,48 @@
+body{
+    background-image: url(../../img/background/backg22.jpg);
+    background-size: cover;
+}
+
+@font-face{
+    font-family: lato-regular;
+    src: url(../../font/font/lato/Lato-Regular.ttf);
+}
+
+@font-face{
+    font-family: kurt-font;
+    src: url(../../font/font/Spartan-HeavyClassified.otf);
+}
+
+h4{
+    font-family: lato-regular;
+    font-size: 40px;
+    text-align: center;
+}
+
+.quote{
+    font-family: lato-regular;
+    font-size: 30px;
+}
+.kurt{
+    font-family: kurt-font;
+    font-size: 25px;
+
+}
+
+.kotak{
+    color:#FFF;
+    font-size:50px;
+    font-weight:bold;
+    padding:10px;
+    margin:10px;
+    width:96%;
+    background:rgb(65, 63, 63);
+    opacity:0.8;
+    border-radius: 15px;
+}
+
+fieldset{
+    border-radius: 10px;
+    border-color: #ffd900f5;
+}
+

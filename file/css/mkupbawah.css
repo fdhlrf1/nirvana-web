@@ -1,0 +1,43 @@
+@font-face{
+    font-family: spartan-heavy;
+    src: url(../../font/font/Spartan-HeavyClassified.otf);
+}
+
+.copyright{
+    font-family: spartan-heavy;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    line-height: 20px;
+
+}
+
+
+/*MEMBUAT SCROLLBAR JADI ESTETIK*/
+
+ /* membuat container atau wadah dari scrollbar dengan lebar 20px  */
+ ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* membuat background dari scrollbar */
+  /* kasih warna transparan agar lebih estetik  */
+  ::-webkit-scrollbar-track {
+    background-color: transparent
+  }
+
+
+  /* membuat styling pada batang atau bar scrollbar  */
+  /* kita beri warna abu tua dengan lengkungan di sisi atas dan bawahnya  */
+  ::-webkit-scrollbar-thumb {
+    background-color:#292929;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  /* warna akan berubah menjadi abu mudah saat kursor diarahkan  */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffd900f5;
+  }

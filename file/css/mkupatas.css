@@ -1,0 +1,54 @@
+a:hover{
+    color:#ffe600;
+    border-radius: 5px;
+}
+
+@font-face{
+    font-family: lato-regular;
+    src: url(../../font/font/lato/Lato-Regular.ttf);
+
+}
+
+@font-face{
+    font-family: roboto-regular;
+    src: url(../../font/font/Fontspring-DEMO-quinoatextsc-heavy.otf);
+
+}
+
+a{
+    font-family: lato-regular;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-variant: none;
+}
+
+.masuk{
+    font-family: lato-regular;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-variant: none;
+    border-radius: 8px;
+}
+
+.followme{
+    color: white;
+    font-family: roboto-regular;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.social-media-icon {
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a.social-media-icon:hover{
+    background: #fff!important;
+    color: #222!important;
+}
+
